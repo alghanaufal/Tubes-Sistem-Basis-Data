@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300;400&family=Press+Start+2P&family=Space+Mono&display=swap');
+
+body{
+    background-color:#EAEAEA;
+    padding: 0px;
+    margin: 0px;
+}
+
+.card{
+    background: white;
+    padding: 70px;
+    margin: 100px;
+
+    font-family: 'Encode Sans';
+    font-style: normal;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.form-group{
+    padding-top: 20px;
+    margin: 20px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.form-group input{
+
+    border-width: thin;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    opacity: 0.8;
+
+    background-color:#f8f8f8;
+}
+
+.form-group select{
+
+    border-width: thin;
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 10px;
+    opacity: 0.8;
+
+    background-color:#f8f8f8;
+}
+
+
+.back-btn{
+    
+    padding: 10px 20px;
+    margin-left: 20px;
+
+    background: #2793D0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+    color:#FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.back-btn:hover{
+    background-color: #195d85;
+}
+
+.save-btn{
+    
+    padding: 8px 25px;
+    margin-top: 10px;
+    margin-left: 20px ;
+
+    background: #22bd56;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: none;
+
+    color:#FFFFFF;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+footer{
+    margin-top: 100px;
+    color: #969696;
+    font-family: 'Encode Sans';
+    font-style: normal;
+    text-align: center;
+    opacity: 0.6;
+}
